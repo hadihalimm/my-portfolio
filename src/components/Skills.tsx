@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="mx-8 grid grid-cols-1 gap-4 md:mx-28 md:grid-cols-3">
         <WobbleCard
           containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-white to-50% border-2"
-          className="px-4 py-4"
+          className="h-full px-4 py-4"
         >
           <h1 className="text-xl font-semibold md:text-2xl">Next.js & React</h1>
           <p className="py-2 text-xs tracking-tighter md:text-base">
@@ -22,7 +22,7 @@ const Skills = () => {
 
         <WobbleCard
           containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#68a063] to-50% border-[#68a063] border-2 "
-          className="flex flex-col justify-between px-4 py-4"
+          className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
             <h1 className="text-xl font-semibold md:text-2xl">
@@ -48,7 +48,7 @@ const Skills = () => {
 
         <WobbleCard
           containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#0b4b33] to-50% border-[#0b4b33] border-2 "
-          className="flex flex-col justify-between px-4 py-4"
+          className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
             <h1 className="text-xl font-semibold md:text-2xl">
@@ -73,7 +73,7 @@ const Skills = () => {
 
         <WobbleCard
           containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#027d9c] to-50% border-[#027d9c] border-2"
-          className="flex flex-col justify-between px-4 py-4"
+          className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
             <h1 className="text-xl font-semibold md:text-2xl">Golang</h1>
@@ -96,7 +96,7 @@ const Skills = () => {
 
         <WobbleCard
           containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#1c63ed] to-50% border-[#1c63ed] border-2"
-          className="flex flex-col justify-between px-4 py-4"
+          className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
             <h1 className="text-xl font-semibold md:text-2xl">
@@ -121,7 +121,7 @@ const Skills = () => {
 
         <WobbleCard
           containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#d26314] to-50% border-[#d26314] border-2 "
-          className="flex flex-col justify-between px-4 py-4"
+          className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
             <h1 className="text-lg font-semibold md:text-xl">
