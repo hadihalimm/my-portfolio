@@ -10,18 +10,19 @@ const Skills = () => {
 
       <div className="mx-8 grid grid-cols-1 gap-4 md:mx-28 md:grid-cols-3">
         <WobbleCard
-          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-white to-50% border-2"
-          className="h-full px-4 py-4"
+          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-white to-50% border-2 h-[200px] md:h-full"
+          className="px-4 py-4"
         >
           <h1 className="text-xl font-semibold md:text-2xl">Next.js & React</h1>
           <p className="py-2 text-xs tracking-tighter md:text-base">
             Next.js is a React framework for building full-stack web
-            applications.
+            applications. Developer use React Components to build user
+            interfaces, and Next.js for additional features and optimizations.
           </p>
         </WobbleCard>
 
         <WobbleCard
-          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#68a063] to-50% border-[#68a063] border-2 "
+          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#68a063] to-50% border-[#68a063] border-2 h-[200px] md:h-full "
           className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
@@ -42,12 +43,13 @@ const Skills = () => {
               title="Certificate"
               icon={<TbCertificate className="size-5" />}
               position={"left"}
+              otherClasses="z-10"
             />
           </a>
         </WobbleCard>
 
         <WobbleCard
-          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#0b4b33] to-50% border-[#0b4b33] border-2 "
+          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#0b4b33] to-50% border-[#0b4b33] border-2 h-[200px] md:h-full "
           className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
@@ -67,12 +69,13 @@ const Skills = () => {
               title="Certificate"
               icon={<TbCertificate className="size-5" />}
               position={"left"}
+              otherClasses="z-10"
             />
           </a>
         </WobbleCard>
 
         <WobbleCard
-          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#027d9c] to-50% border-[#027d9c] border-2"
+          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#027d9c] to-50% border-[#027d9c] border-2 h-[200px] md:h-full"
           className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
@@ -90,12 +93,13 @@ const Skills = () => {
               title="Certificate"
               icon={<TbCertificate className="size-5" />}
               position={"left"}
+              otherClasses="z-10"
             />
           </a>
         </WobbleCard>
 
         <WobbleCard
-          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#1c63ed] to-50% border-[#1c63ed] border-2"
+          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#1c63ed] to-50% border-[#1c63ed] border-2 h-[200px] md:h-full"
           className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
@@ -115,12 +119,13 @@ const Skills = () => {
               title="Certificate"
               icon={<TbCertificate className="size-5" />}
               position={"left"}
+              otherClasses="z-10"
             />
           </a>
         </WobbleCard>
 
         <WobbleCard
-          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#d26314] to-50% border-[#d26314] border-2 "
+          containerClassName="col-span-1 h-full bg-gradient-to-br from-black from-85% to-[#d26314] to-50% border-[#d26314] border-2 h-[200px] md:h-full"
           className="flex h-full flex-col justify-between px-4 py-4"
         >
           <div>
@@ -141,6 +146,7 @@ const Skills = () => {
               title="Certificate"
               icon={<TbCertificate className="size-5" />}
               position={"left"}
+              otherClasses="z-10"
             />
           </a>
         </WobbleCard>
