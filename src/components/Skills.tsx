@@ -6,7 +6,7 @@ import MagicButton from "./ui/MagicButton";
 const Skills = () => {
   return (
     <div className="flex flex-col items-center justify-center pb-24">
-      <h1 className="pb-5 text-3xl font-bold">Skills</h1>
+      <h1 className="pb-5 text-xl font-bold md:text-3xl">Skills</h1>
 
       <div className="mx-8 grid grid-cols-1 gap-4 md:mx-28 md:grid-cols-3">
         <WobbleCard
