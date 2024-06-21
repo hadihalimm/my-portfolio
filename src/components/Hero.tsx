@@ -14,7 +14,7 @@ const words = [
 const Hero = () => {
   return (
     <div className="flex flex-col pb-20 pt-36">
-      <div className="relative flex h-full w-full flex-col items-center justify-center bg-white bg-dot-black/[0.1] dark:bg-black dark:bg-dot-white/[0.2]">
+      <div className="relative flex h-full w-full flex-col items-center justify-center bg-white bg-dot-black/[0.3] dark:bg-black dark:bg-dot-white/[0.4]">
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black"></div>
         <FlipWords
           words={words}
